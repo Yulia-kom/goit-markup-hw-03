@@ -1,0 +1,199 @@
+:root {
+  --color-black: #000;
+  --color-white: #ffffff;
+  --color-accent: #2196f3;
+  --color-dark-gray: #212121;
+  --color-gray: #757575;
+  --color-dark-bg: #2f303a;
+  --color-center-bg: #e5e5e5;
+  --color-light-bg: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-grey);
+  background-color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Logo*/
+.logo,
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.logo {
+  color: var(--color-black);
+}
+
+.logo-footer {
+  color: var(--color-white);
+}
+
+.logo > span,
+.logo-footer > span {
+  color: var(--color-accent);
+}
+
+/*Menu*/
+
+.list {
+  list-style: none;
+}
+.menu-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--color-dark-gray);
+}
+
+.menu-nav .link.current {
+  color: var(--color-accent);
+}
+
+.menu-nav .link:hover,
+.auth-nav .link:hover,
+.menu-nav .link:focus,
+.auth-nav .link:focus {
+  color: var(--color-accent);
+}
+
+.auth-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--color-gray);
+}
+.auth-link {
+  font-size: 14px;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*Hero*/
+.hero {
+  background: var(--color-dark-bg);
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+/*Button*/
+
+.button {
+  background: var(--color-accent);
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+}
+.port-button {
+  background-color: var(--color-light-bg);
+  color: var(--color-dark-gray);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.button,
+.port-button {
+  cursor: pointer;
+  font-family: inherit;
+}
+/*Section*/
+.section {
+  background: var(--color-light-bg);
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--color-dark-gray);
+}
+
+.section-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--color-gray);
+}
+
+/*Container*/
+.container-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.container {
+  background: var(--color-center-bg);
+}
+
+/*Card*/
+.card-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: var(--color-dark-gray);
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: var(--color-gray);
+}
+
+/*Footer*/
+address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--color-white);
+}
+
+/*Portfolio*/
+.port-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.71;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--color-dark-gray);
+}
+.port-text {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--color-gray);
+}
