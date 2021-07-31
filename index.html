@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -19,7 +19,7 @@
   <body>
     <header>
       <!--Navbar-->
-      <div class="container">
+      <div class="container main-nav">
         <nav class="navbar">
           <a class="logo" href=".index.html"><span>Web</span>Studio</a>
 
@@ -28,12 +28,11 @@
             <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
             <li class="item"><a href="#" class="link">Контакты</a></li>
           </ul>
-
-          <ul class="auth-nav list">
-            <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-          </ul>
         </nav>
+        <ul class="auth-nav list">
+          <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        </ul>
       </div>
     </header>
 
@@ -94,7 +93,7 @@
       <!--Наша команда-->
       <section class="gallery-list">
         <div class="container">
-          <h2 class="container-title">Наша команда</h2>
+          <h2 class="container-title gallery">Наша команда</h2>
 
           <ul class="card-list list">
             <li class="item">
@@ -151,12 +150,14 @@
 
     <!--Футер-->
     <footer class="footer-hero">
-      <a href="./index.html" class="logo-footer"><span>Web</span>Studio</a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="auth-footer list">
-        <li class="item"><a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a></li>
-        <li class="item"><a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="container">
+        <a href="./index.html" class="logo-footer"><span>Web</span>Studio</a>
+        <address>г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="auth-footer list">
+          <li class="item"><a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a></li>
+          <li class="item"><a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
